@@ -1,21 +1,17 @@
 # MySQL all for one
 
-# Contexto
+# <summary><strong>👨‍💻 O que foi desenvolvido</strong></summary><br />
 Este projeto trata-se de uma projeto de treino com o codinome All For One em que praticará todos os conceitos de SQL,
 nesse projeto, uma série de desafios com diferentes níveis de complexidade foram resolvidos cada um em seu arquivo próprio.
 
 ## Técnologias usadas
 
-Front-end:
-> Desenvolvido usando: React, Redux, CSS3, HTML5, Redis, ES6
-
-Back-end:
-> Desenvolvido usando: NodeJS, ExpressJS, MongoDB, MYSQL, ES6
+Database:
+> Desenvolvido usando: MYSQL
 
 
 ## Instalando Dependências
 
-> Backend
   > :information_source: Rode os serviços `node` e `db` com o comando `docker-compose up -d`.
   - Lembre-se de parar o `mysql` se estiver usando localmente na porta padrão (`3306`), ou adapte, caso queria fazer uso da aplicação em containers
   - Esses serviços irão inicializar um container chamado `all_for_one` e outro chamado `all_for_one_db`.
@@ -31,10 +27,9 @@ Back-end:
 
 ## Executando Testes
 
-* Para rodar todos os testes:
+#### :warning: Execute os testes locais com Docker
 
-  ```
-    npm test
-  ```
-
-# :construction: README customizado em construção ! :construction:
+- Após ter seguido os passos anteriores do `docker-compose up -d` e `docker exec -it all_for_one bash`, dentro do terminal interativo do container, rode:
+```sh
+npm test
+```
