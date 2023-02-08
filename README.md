@@ -1,6 +1,6 @@
 # MySQL all for one
 
-# 👨‍💻 O que foi desenvolvido
+## 👨‍💻 O que foi desenvolvido
 Este projeto trata-se de uma projeto de treino com o codinome All For One em que praticará todos os conceitos de SQL,
 nesse projeto, uma série de desafios com diferentes níveis de complexidade foram resolvidos cada um em seu arquivo próprio.
 
